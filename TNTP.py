@@ -82,12 +82,10 @@ class Network :
         return self.fftt*x*(1+self.b/(1+self.power)*(x/self.capacity)**self.power)
     # def Z(self, x):
     #     return sum(self.T(x))
-    θ=1
-    Q=1
-    def S(self, x):
-        return (1/θ)*sum(x/Q*log(x/Q))
-    def Z(self, x):
-        return self.T(x)+self.S(x)
+    # def S(self, x):
+    #     return (1/θ)*sum(x/Q*log(x/Q))
+    # def Z(self, x):
+    #     return self.T(x)+self.S(x)
     
     #
     # Shoretst travel time for every O-D pairs (for convergence test)
