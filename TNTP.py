@@ -137,9 +137,6 @@ class Network :
 
 
     #logit
-    # def logit():
-    #     x
-
 
 
 
