@@ -84,7 +84,7 @@ class Network :
         return sum(self.T(x))
     def A(self, x):
         return (self.Z(x))*2
-    def AA(self,x):
+    def A_mat(self,x):
         return (self.A(x))*2
     # def S(self, x):
     #     return (1/θ)*sum(x/Q*log(x/Q))
