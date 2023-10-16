@@ -134,6 +134,17 @@ class Network :
     # Find the initial solution as an AoN with the free-flow travel time
     def AoN_init(self):
         return self.AoN(self.t_mat())
+
+
+    #logit
+    def logit():
+        x
+
+
+
+
+
+
     
     #
     # Linear search for the optimal step-size 
