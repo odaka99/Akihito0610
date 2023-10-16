@@ -83,9 +83,7 @@ class Network :
     def Z(self, x):
         return sum(self.T(x))
     def A(self, x):
-        return (self.Z(x))*2
-    def K(self, x):
-        return sum(self.T(x))
+        return sum(self.T(x))/2
     # def S(self, x):
     #     return (1/θ)*sum(x/Q*log(x/Q))
     # def Z(self, x):
